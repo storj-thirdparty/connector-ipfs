@@ -1,0 +1,5 @@
+{
+  "hostName": "change-me-to-hostname",
+  "port":    "change-me-to-port",
+  "hash":	"change-me-to-fileHash-or-folderHash"
+}
