@@ -1,6 +1,6 @@
 ## verify documentation is present. 
 ## cd is /workspace
-HOME_MD="./README.assets/Home.md"
+HOME_MD="./README.assets/HOME.md"
 README_MD="./README.md"
 if [ -f $HOME_MD ] && [ -f $README_MD ]; then
     echo "doco check PASSED"
