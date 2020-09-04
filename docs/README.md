@@ -4,7 +4,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-ipfs)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-ipfs)
 ![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-ipfs/branches/master.svg)
 
-
 ## Overview
 
 The IPFS Connector connects to an IPFS server, takes a backup of the specified files and uploads the backup data on Storj network.
@@ -29,15 +28,11 @@ The following flags  can be used with the `store` command:
 
 Sample configuration files are provided in the `./config` folder.
 
-
-
 ## Requirements and Install
 
 To build from scratch, [install the latest Go](https://golang.org/doc/install#install).
 
 > Note: Ensure go modules are enabled (GO111MODULE=on)
-
-
 
 ### Option #1: clone this repo (most common)
 
@@ -54,8 +49,6 @@ cd connector-ipfs
 go build
 ```
 
-
-
 ### Option #2:  ``go get`` into your gopath
 
 To download the project inside your GOPATH use the following command:
@@ -64,7 +57,6 @@ To download the project inside your GOPATH use the following command:
 go get github.com/storj-thirdparty/connector-ipfs
 ```
 
-
 ### Connect to IPFS Server
 
 Make sure you are connected to IPFS server. If not, run the ipfs daemon in another `terminal` to join your node to the public network:
@@ -72,7 +64,6 @@ Make sure you are connected to IPFS server. If not, run the ipfs daemon in anoth
 ```
 $ ipfs daemon
 ```
-
 
 ## Run (short version)
 
@@ -95,7 +86,6 @@ $ ./connector-ipfs --version
 ```
 $ ./connector-ipfs store
 ```
-
 
 ## Flow Diagram
 

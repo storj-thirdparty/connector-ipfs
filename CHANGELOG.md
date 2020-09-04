@@ -1,8 +1,8 @@
 # connector-ipfs Changelog
 
-## [1.0.5] - 18-08-2020
+## [1.0.5] - 27-08-2020
 ### Changelog:
-* Resolved upload path issue.
+* Added CI-CD pipeline.
 
 ## [1.0.5] - 27-05-2020
 ### Changelog:
