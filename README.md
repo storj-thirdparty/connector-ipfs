@@ -4,7 +4,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-ipfs)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-ipfs)
 ![Cloud Build](https://storage.googleapis.com/storj-utropic-services-badges/builds/connector-ipfs/branches/master.svg)
 
-
 ## Overview
 
 The IPFS Connector connects to an IPFS server, takes a backup of the specified files and uploads the backup data on Storj network.
@@ -29,7 +28,6 @@ Sample configuration files are provided in the `./config` folder.
 To build from scratch, [install the latest Go](https://golang.org/doc/install#install).
 
 > Note: Ensure go modules are enabled (GO111MODULE=on)
-
 
 #### Option #1: clone this repo (most common)
 
@@ -86,9 +84,15 @@ $ ./connector-ipfs store
 
 ## Documentation
 
-For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/Detail) or jump to:
-
-* [Config Files](//github.com/storj-thirdparty/connector-ipfs/wiki/#config-files)
-* [Run (long version)](//github.com/storj-thirdparty/connector-ipfs/wiki/#run)
-* [Testing](//github.com/storj-thirdparty/connector-ipfs/wiki/#testing)
-* [Flow Diagram](//github.com/storj-thirdparty/connector-ipfs/wiki/#flow-diagram)
+* Access documentation on local system :
+  1) Install [docsify](https://www.npmjs.com/package/docsify-cli)
+  2) Run the following command at the root directory of the cloned project.
+  ```
+  $ docsify serve docs
+  ```
+* For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/Detail) or jump to:
+  * [Config Files](//github.com/storj-thirdparty/connector-ipfs/wiki/#config-files)
+  * [Run (long version)](//github.com/storj-thirdparty/connector-ipfs/wiki/#run)
+  * [Testing](//github.com/storj-thirdparty/connector-ipfs/wiki/#testing)
+  * [Flow Diagram](//github.com/storj-thirdparty/connector-ipfs/wiki/#flow-diagram)
+  * [Video](//github.com/storj-thirdparty/connector-ipfs/docs/videos)

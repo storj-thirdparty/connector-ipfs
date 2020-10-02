@@ -41,7 +41,7 @@ func ipfsStore(cmd *cobra.Command, args []string) {
 	storjConfig := LoadStorjConfiguration(fullFileNameStorj)
 
 	// Connect to storj network using the specified credentials.
-	access, project := ConnectToStorj(fullFileNameStorj, storjConfig, useAccessKey)
+	access, project := ConnectToStorj(storjConfig, useAccessKey)
 
 	// Connect to IPFS using the specified credentials
 	ipfsShell := ConnectToIpfs(configIpfs)
