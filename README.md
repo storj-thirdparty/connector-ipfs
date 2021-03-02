@@ -90,9 +90,9 @@ $ ./connector-ipfs store
   ```
   $ docsify serve docs
   ```
-* For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/wiki/Detail) or jump to:
+* For more information on runtime flags, configuration, testing, and diagrams, check out the [Detail](//github.com/storj-thirdparty/connector-ipfs/wiki) or jump to:
   * [Config Files](//github.com/storj-thirdparty/connector-ipfs/wiki/#config-files)
   * [Run (long version)](//github.com/storj-thirdparty/connector-ipfs/wiki/#run)
   * [Testing](//github.com/storj-thirdparty/connector-ipfs/wiki/#testing)
   * [Flow Diagram](//github.com/storj-thirdparty/connector-ipfs/wiki/#flow-diagram)
-  * [Video](//github.com/storj-thirdparty/connector-ipfs/docs/videos)
+  * [Video](//github.com/storj-thirdparty/connector-ipfs/blob/master/docs/videos/ipfs.webm)
