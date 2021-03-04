@@ -13,6 +13,10 @@ steps:
     name: "gcr.io/cloud-builders/go"
     args: ["version"]
     env: ["GOPATH=."]
+  - id: go_fmt
+    name: "mirror.gcr.io/library/golang"
+    env: ['GO111MODULE=on']
+    args: ['gofmt', '-s', '-w']
   - id: go_linter
     name: "golangci/golangci-lint"
     args: ["golangci-lint","run"]  

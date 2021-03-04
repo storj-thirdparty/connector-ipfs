@@ -140,7 +140,13 @@ func ConnectToStorj(configStorj ConfigStorj, accesskey bool) (*uplink.Access, *u
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer project.Close()
+
+	defer func() {
+		err := project.Close()
+		if err != nil {
+			log.Fatal(err)
+		}
+	}()
 
 	// Ensure the desired Bucket within the Project.
 	_, err = project.EnsureBucket(ctx, configStorj.Bucket)
