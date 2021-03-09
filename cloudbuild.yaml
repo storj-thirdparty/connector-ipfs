@@ -16,7 +16,7 @@ steps:
   - id: go_fmt
     name: "mirror.gcr.io/library/golang"
     env: ['GO111MODULE=on']
-    args: ['gofmt', '-s', '-w']
+    args: ['gofmt', '-s', '-w', '.']
   - id: go_linter
     name: "golangci/golangci-lint"
     args: ["golangci-lint","run"]  
