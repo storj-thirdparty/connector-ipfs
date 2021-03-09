@@ -1,0 +1,4 @@
+.idea
+*.exe
+/config/storj_config_test.json
+/testFile.txt
