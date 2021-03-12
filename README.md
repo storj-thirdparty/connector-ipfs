@@ -1,4 +1,4 @@
-## connector-ipfs (uplink v1.0.5)
+## connector-ipfs (uplink v1.4.5)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ac7bbc539c0a45a5a2140b3e6b7c823d)](https://app.codacy.com/gh/storj-thirdparty/connector-IPFS?utm_source=github.com&utm_medium=referral&utm_content=storj-thirdparty/connector-IPFS&utm_campaign=Badge_Grade_Dashboard)
 [![Go Report Card](https://goreportcard.com/badge/github.com/storj-thirdparty/connector-ipfs)](https://goreportcard.com/report/github.com/storj-thirdparty/connector-ipfs)
